@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #0f172a;
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -0.5px;
+}
+
+.practice-card, .intro-card, .settings {
+    background-color: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.practice-card:hover, .intro-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+.challenge-text {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0f172a;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.syllables {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+.translation {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #64748b;
+    font-style: italic;
+}
+
+.result-container {
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    min-height: 130px;
+    border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.recognition-result {
+    font-size: 1.25rem;
+    color: #64748b;
+    margin-bottom: 1rem;
+    font-style: italic;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.feedback {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    min-height: 1.8rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.feedback.correct {
+    color: #059669;
+    background-color: rgba(5, 150, 105, 0.1);
+}
+
+.feedback.incorrect {
+    color: #e11d48;
+    background-color: rgba(225, 29, 72, 0.1);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.875rem 1.75rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.record-btn {
+    background-color: #ef4444;
+    color: white;
+}
+
+.record-btn:hover {
+    background-color: #dc2626;
+}
+
+.record-btn.recording {
+    animation: pulse 1.5s infinite;
+    background-color: #b91c1c;
+}
+
+.next-btn {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.next-btn:hover {
+    background-color: #2563eb;
+}
+
+.settings {
+    background-color: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.difficulty-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+label {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+select {
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+    font-size: 1rem;
+    color: #1e293b;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.custom-btn {
+    background-color: #10b981;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #059669;
+}
+
+.instructions {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.instructions li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 0.5rem;
+}
+
+.instructions li::before {
+    content: "";
+    position: absolute;
+    left: -1.2rem;
+    top: 0.5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #3b82f6;
+    border-radius: 50%;
+}
+
+.start-btn {
+    background-color: #10b981;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1.25rem 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #059669;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(16, 185, 129, 0.2);
+}
+
+.back-btn {
+    background-color: #64748b;
+    color: white;
+    margin-top: 1.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-btn:hover {
+    background-color: #475569;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(4px);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 8% auto;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    width: 85%;
+    max-width: 700px;
+    position: relative;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    animation: modalFade 0.3s ease;
+}
+
+@keyframes modalFade {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.close, .close-summary {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.75rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #64748b;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close:hover, .close-summary:hover {
+    color: #0f172a;
+}
+
+.tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+}
+
+.tab-btn {
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    cursor: pointer;
+    font-weight: 600;
+    color: #64748b;
+    transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.tab-content {
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.95rem;
+    resize: vertical;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.import-btn {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #64748b;
+    color: white;
+}
+
+.import-btn:hover {
+    background-color: #2563eb;
+}
+
+.cancel-btn:hover {
+    background-color: #475569;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 12px rgba(239, 68, 68, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    }
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+    align-items: center;
+}
+
+.score, .timer {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0f172a;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.end-btn {
+    background-color: #8b5cf6;
+    color: white;
+}
+
+.end-btn:hover {
+    background-color: #7c3aed;
+}
+
+#summaryStats {
+    background-color: #f8fafc;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+#summaryStats .stat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgba(226, 232, 240, 0.5);
+    transition: transform 0.2s ease;
+}
+
+#summaryStats .stat-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+#summaryStats .stat-label {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+#summaryStats .stat-value {
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+}
+
+#summaryStats .stat-value.good {
+    color: #059669;
+    background-color: rgba(5, 150, 105, 0.1);
+}
+
+#summaryStats .stat-value.bad {
+    color: #e11d48;
+    background-color: rgba(225, 29, 72, 0.1);
+}
+
+#summaryStats .summary-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    color: #3b82f6;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 600px) {
+    .practice-card {
+        padding: 1.5rem;
+    }
+    
+    .challenge-text {
+        font-size: 1.5rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    color: #64748b;
+    font-size: 0.95rem;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+}
+

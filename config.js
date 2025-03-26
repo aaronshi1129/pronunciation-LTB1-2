@@ -1,0 +1,53 @@
+export const config = {
+    words: [
+        {text: "Apple", syllables: "Ap-ple", translation: "蘋果"},
+        {text: "Banana", syllables: "Ba-na-na", translation: "香蕉"},
+        {text: "Computer", syllables: "Com-pu-ter", translation: "電腦"},
+        {text: "Elephant", syllables: "El-e-phant", translation: "大象"},
+        {text: "Fantastic", syllables: "Fan-tas-tic", translation: "極好的"},
+        {text: "Guitar", syllables: "Gui-tar", translation: "吉他"},
+        {text: "Hospital", syllables: "Hos-pi-tal", translation: "醫院"},
+        {text: "Important", syllables: "Im-por-tant", translation: "重要的"},
+        {text: "January", syllables: "Jan-u-a-ry", translation: "一月"},
+        {text: "Knowledge", syllables: "Know-ledge", translation: "知識"},
+        {text: "Language", syllables: "Lan-guage", translation: "語言"},
+        {text: "Mountain", syllables: "Moun-tain", translation: "山"},
+        {text: "Newspaper", syllables: "News-pa-per", translation: "報紙"},
+        {text: "Orchestra", syllables: "Or-ches-tra", translation: "管弦樂團"},
+        {text: "Powerful", syllables: "Pow-er-ful", translation: "強大的"},
+        {text: "Question", syllables: "Ques-tion", translation: "問題"},
+        {text: "Rectangle", syllables: "Rec-tan-gle", translation: "矩形"},
+        {text: "Strategy", syllables: "Stra-te-gy", translation: "策略"},
+        {text: "Telephone", syllables: "Tel-e-phone", translation: "電話"},
+        {text: "University", syllables: "U-ni-ver-si-ty", translation: "大學"}
+    ],
+    phrases: [
+        {text: "Good morning", syllables: "Good mor-ning", translation: "早安"},
+        {text: "How are you?", syllables: "How are you?", translation: "你好嗎？"},
+        {text: "Nice to meet you", syllables: "Nice to meet you", translation: "很高興認識你"},
+        {text: "Thank you very much", syllables: "Thank you ve-ry much", translation: "非常感謝"},
+        {text: "I'd like to order", syllables: "I'd like to or-der", translation: "我要點餐"},
+        {text: "What time is it?", syllables: "What time is it?", translation: "現在幾點？"},
+        {text: "See you tomorrow", syllables: "See you to-mor-row", translation: "明天見"},
+        {text: "Have a good day", syllables: "Have a good day", translation: "祝你有美好的一天"},
+        {text: "Could you help me?", syllables: "Could you help me?", translation: "你可以幫我嗎？"},
+        {text: "Where is the bathroom?", syllables: "Where is the bath-room?", translation: "洗手間在哪裡？"},
+        {text: "Let me think about it", syllables: "Let me think a-bout it", translation: "讓我想想"},
+        {text: "That sounds great", syllables: "That sounds great", translation: "聽起來很棒"},
+        {text: "I don't understand", syllables: "I don't un-der-stand", translation: "我不懂"},
+        {text: "Can you repeat that?", syllables: "Can you re-peat that?", translation: "你可以再說一次嗎？"},
+        {text: "What's the weather like?", syllables: "What's the wea-ther like?", translation: "天氣如何？"}
+    ],
+    sentences: [
+        {text: "The quick brown fox jumps over the lazy dog.", syllables: "The quick brown fox jumps o-ver the la-zy dog.", translation: "那隻敏捷的棕色狐狸跳過了那隻懶狗。"},
+        {text: "I can't believe how fast this year is going by.", syllables: "I can't be-lieve how fast this year is go-ing by.", translation: "我不敢相信今年過得這麼快。"},
+        {text: "Would you like to go out for dinner tonight?", syllables: "Would you like to go out for din-ner to-night?", translation: "你今晚想出去吃晚餐嗎？"},
+        {text: "She sells seashells by the seashore.", syllables: "She sells sea-shells by the sea-shore.", translation: "她在海邊賣貝殼。"},
+        {text: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?", syllables: "How much wood would a wood-chuck chuck if a wood-chuck could chuck wood?", translation: "如果土撥鼠會丟木頭，它能丟多少木頭？"},
+        {text: "The early bird catches the worm, but the second mouse gets the cheese.", syllables: "The ear-ly bird catch-es the worm, but the se-cond mouse gets the cheese.", translation: "早起的鳥兒有蟲吃，但第二隻老鼠才能拿到乳酪。"},
+        {text: "To be or not to be, that is the question.", syllables: "To be or not to be, that is the ques-tion.", translation: "生存，還是毀滅，這是個問題。"},
+        {text: "All that glitters is not gold.", syllables: "All that glit-ters is not gold.", translation: "閃閃發光的不一定是金子。"},
+        {text: "You can't judge a book by its cover.", syllables: "You can't judge a book by its co-ver.", translation: "不要以貌取人。"},
+        {text: "Life is what happens when you're busy making other plans.", syllables: "Life is what hap-pens when you're bu-sy ma-king o-ther plans.", translation: "當你忙著計畫未來時，生活已經在發生。"}
+    ]
+};

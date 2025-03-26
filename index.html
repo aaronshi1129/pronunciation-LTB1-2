@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronunciation Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="home-page">
+            <h1>Pronunciation Challenge</h1>
+            
+            <div class="intro-card">
+                <h2>How to Use</h2>
+                <ol class="instructions">
+                    <li>Select your difficulty level or import custom content</li>
+                    <li>Click "Start Practice" to begin</li>
+                    <li>Click "Next" to get a new word or phrase</li>
+                    <li>Press "Speak" and pronounce the word/phrase clearly</li>
+                    <li>The system will check if your pronunciation matches the word/phrase/sentence shown. (Ignore capitalization and punctuation.)</li>
+                </ol>
+                
+                <div class="settings">
+                    <div class="difficulty-selector">
+                        <label for="home-difficulty">Bank:</label>
+                        <select id="home-difficulty">
+                            <option value="easy">Easy (Words)</option>
+                            <option value="medium">Medium (Phrases)</option>
+                            <option value="hard">Hard (Sentences)</option>
+                        </select>
+                        <button id="home-custom-btn" class="btn custom-btn">Custom Import</button>
+                    </div>
+                </div>
+                
+                <button id="start-btn" class="btn start-btn">Start Practice</button>
+            </div>
+        </div>
+        
+        <div id="practice-page" style="display: none;">
+            <h1>Pronunciation Challenge</h1>
+            
+            <div class="practice-card">
+                <div id="challenge-text" class="challenge-text">Click 'Next' to start</div>
+                <div id="syllables" class="syllables"></div>
+                <div id="translation" class="translation"></div>
+                
+                <div class="result-container">
+                    <div id="recognition-result" class="recognition-result">Your speech will appear here</div>
+                    <div id="feedback" class="feedback"></div>
+                    <div class="score-container">
+                        <div id="score" class="score">Correct: 0 | Wrong: 0</div>
+                        <div id="timer" class="timer">Time: 00:00</div>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button id="recordBtn" class="btn record-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                            <line x1="12" y1="19" x2="12" y2="22"></line>
+                        </svg>
+                        Speak
+                    </button>
+                    <button id="nextBtn" class="btn next-btn">Next</button>
+                    <button id="endBtn" class="btn end-btn">End Practice</button>
+                </div>
+            </div>
+            
+            <div class="settings">
+                <div class="difficulty-selector">
+                    <label for="difficulty">Difficulty:</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy (Words)</option>
+                        <option value="medium">Medium (Phrases)</option>
+                        <option value="hard">Hard (Sentences)</option>
+                    </select>
+                    <button id="customBtn" class="btn custom-btn">Custom Import</button>
+                </div>
+                <button id="back-to-home" class="btn back-btn">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Custom Import Modal -->
+    <div id="importModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Import Custom Content</h2>
+            
+            <div class="form-group">
+                <label for="customSetName">Set Name (will appear in dropdown):</label>
+                <input type="text" id="customSetName" placeholder="e.g., Medical Terms, Travel Phrases">
+            </div>
+            
+            <div class="form-group">
+                <label for="customContent">Enter your custom content (one item per line in format: word, syl-la-bles, translation):</label>
+                <textarea id="customContent" rows="10" placeholder='important, im-port-ant, 重要的
+example, ex-am-ple, 範例
+custom, cus-tom, 自訂的'></textarea>
+            </div>
+            
+            <div class="modal-footer">
+                <button id="importBtn" class="btn import-btn">Import</button>
+                <button id="cancelBtn" class="btn cancel-btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Summary Modal -->
+    <div id="summaryModal" class="modal">
+        <div class="modal-content">
+            <span class="close-summary">&times;</span>
+            <h2>Practice Summary</h2>
+            
+            <div class="summary-content">
+                <div id="summaryStats"></div>
+            </div>
+            
+            <div class="modal-footer">
+                <button id="backHomeBtn" class="btn back-btn">Back to Home</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        Released in April 2025. Created by Aaron Shi.
+        <a href="https://sites.google.com/view/aaronshi" target="_blank">
+            <img src="https://alittlemoreenglish.weebly.com/uploads/2/6/6/3/26638990/favicon-32x32_orig.png" alt="Aaron Shi" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;">
+        </a>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
