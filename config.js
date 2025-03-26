@@ -185,7 +185,5 @@ export const config = {
         {text: "Practice makes perfect.", syllables: "Prac-tice makes per-fect.", translation: "熟能生巧。"},
         {text: "Slow and steady wins the race.", syllables: "Slow and stead-y wins the race.", translation: "穩紮穩打贏得比賽。"},
         {text: "Actions speak louder than words.", syllables: "Ac-tions speak loud-er than words.", translation: "行動勝於言語。"}
-]
-]
     ]
 };
