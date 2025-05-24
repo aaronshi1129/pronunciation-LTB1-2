@@ -111,18 +111,18 @@ export const config = {
         "translation": "大家早安，我很興奮今天能在這裡與大家討論一個我認為會深遠影響我們未來能源使用的議題。"
       },
       {
-        "text": "Imagine a world where renewable energy powers every home and business. That's what we're going to explore today.",
-        "syllables": "I-ma-gine a world where re-new-a-ble en-er-gy pow-ers eve-ry home and bus-i-ness. That's what we're go-ing to ex-plore to-day.",
+        "text": "Imagine a world where renewable energy powers every home and business. That's what we are going to explore today.",
+        "syllables": "I-ma-gine a world where re-new-a-ble en-er-gy pow-ers eve-ry home and bus-i-ness. That's what we are go-ing to ex-plore to-day.",
         "translation": "想像一個由再生能源驅動每個家庭與企業的世界，這正是我們今天要探討的主題。"
       },
       {
-        "text": "Have you ever wondered about the true cost of fast fashion? We'll delve into that question and more.",
-        "syllables": "Have you ev-er won-dered a-bout the true cost of fast fash-ion? We'll delve in-to that ques-tion and more.",
+        "text": "Have you ever wondered about the true cost of fast fashion? We will delve into that question and more.",
+        "syllables": "Have you ev-er won-dered a-bout the true cost of fast fash-ion? We will delve in-to that ques-tion and more.",
         "translation": "你是否想過快速時尚背後真正的代價？我們今天會深入探討這個問題。"
       },
       {
-        "text": "By the end of this presentation, I hope you'll have a clear understanding of the benefits of adopting a plant-based diet.",
-        "syllables": "By the end of this pre-sen-ta-tion, I hope you'll have a clear un-der-stand-ing of the ben-e-fits of a-dopt-ing a plant-based di-et.",
+        "text": "By the end of this presentation, I hope you will have a clear understanding of the benefits of adopting a plant-based diet.",
+        "syllables": "By the end of this pre-sen-ta-tion, I hope you will have a clear un-der-stand-ing of the ben-e-fits of a-dopt-ing a plant-based di-et.",
         "translation": "在簡報結束時，我希望你們能清楚了解採取植物性飲食的好處。"
       },
       {
@@ -136,8 +136,8 @@ export const config = {
         "translation": "我今天的目的是釐清遠距工作環境中的挑戰與機會，以及其影響。"
       },
       {
-        "text": "Today, we'll be examining the latest advancements in artificial intelligence from several key angles.",
-        "syllables": "To-day, we'll be ex-am-in-ing the lat-est ad-vance-ments in ar-ti-fi-cial in-tel-li-gence from sev-er-al key an-gles.",
+        "text": "Today, we will be examining the latest advancements in artificial intelligence from several key angles.",
+        "syllables": "To-day, we will be ex-am-in-ing the lat-est ad-vance-ments in ar-ti-fi-cial in-tel-li-gence from sev-er-al key an-gles.",
         "translation": "今天我們將從幾個關鍵角度來探討人工智慧的最新進展。"
       },
       {
@@ -151,8 +151,8 @@ export const config = {
         "translation": "本簡報旨在為你們全面介紹現代組織所面臨的資安威脅。"
       },
       {
-        "text": "We'll be exploring the crucial role of sustainable agricultural practices in ensuring global food security.",
-        "syllables": "We'll be ex-plor-ing the cru-cial role of sus-tain-a-ble ag-ri-cul-tur-al prac-tic-es in en-sur-ing glo-bal food se-cu-ri-ty.",
+        "text": "We will be exploring the crucial role of sustainable agricultural practices in ensuring global food security.",
+        "syllables": "We will be ex-plor-ing the cru-cial role of sus-tain-a-ble ag-ri-cul-tur-al prac-tic-es in en-sur-ing glo-bal food se-cu-ri-ty.",
         "translation": "我們將探討永續農業實踐在確保全球糧食安全中的關鍵角色。"
       },
       {
@@ -161,13 +161,13 @@ export const config = {
         "translation": "感謝大家在百忙之中抽空參加今天的活動。"
       },
       {
-        "text": "It's a pleasure to see so many familiar faces and some new ones too, all gathered to discuss innovative educational reforms.",
-        "syllables": "It's a pleas-ure to see so ma-ny fa-mil-iar faces and some new ones too, all gath-ered to dis-cuss in-no-va-tive ed-u-ca-tion-al re-forms.",
+        "text": "It's a pleasure to see so many familiar faces and some new ones too, all here to discuss innovative educational reforms.",
+        "syllables": "It's a pleas-ure to see so ma-ny fa-mil-iar faces and some new ones too, all here to dis-cuss in-no-va-tive ed-u-ca-tion-al re-forms.",
         "translation": "很高興看到這麼多熟悉的面孔，也有一些新朋友，齊聚一堂來討論創新的教育改革。"
       },
       {
-        "text": "I'd like to extend a warm welcome to everyone present as we discuss the future of urban planning.",
-        "syllables": "I'd like to ex-tend a warm wel-come to ev-er-y-one pre-sent as we dis-cuss the fu-ture of ur-ban plan-ning.",
+        "text": "I would like to extend a warm welcome to everyone present as we discuss the future of urban planning.",
+        "syllables": "I would like to ex-tend a warm wel-come to ev-er-y-one pre-sent as we dis-cuss the fu-ture of ur-ban plan-ning.",
         "translation": "我想向在場的每位朋友熱烈歡迎，讓我們一起討論都市規劃的未來。"
       },
       {
@@ -191,8 +191,8 @@ export const config = {
         "translation": "有任何問題隨時發問沒問題，或也可以等我們討論氣候變遷解方結束後再一起聊。"
       },
       {
-        "text": "I'd love to hear your thoughts on the ethical considerations of genetic engineering as we proceed.",
-        "syllables": "I'd love to hear your thoughts on the eth-i-cal con-sid-er-a-tions of ge-net-ic en-gi-neer-ing as we pro-ceed.",
+        "text": "I would love to hear your thoughts on the ethical considerations of genetic engineering as we proceed.",
+        "syllables": "I would love to hear your thoughts on the eth-i-cal con-sid-er-a-tions of ge-net-ic en-gi-neer-ing as we pro-ceed.",
         "translation": "我很期待在進行簡報時，聽聽大家對基因工程倫理議題的看法。"
       },
       {
@@ -206,8 +206,8 @@ export const config = {
         "translation": "我很期待和你們分享在職場中推動多元化的一些見解，也希望我們能有一場富有成果的交流。"
       },
       {
-        "text": "To give you an idea of what we'll cover, I'll first discuss the background, then move on to the key findings, and finally, present our recommendations.",
-        "syllables": "To give you an i-de-a of what we'll cov-er, I'll first dis-cuss the back-ground, then move on to the key find-ings, and fi-nal-ly, pre-sent our rec-om-men-da-tions.",
+        "text": "To give you an idea of what we will cover, we will first discuss the background, then move on to the key findings, and finally, present our recommendations.",
+        "syllables": "To give you an i-de-a of what we will cov-er, we will first dis-cuss the back-ground, then move on to the key find-ings, and fi-nal-ly, pre-sent our rec-om-men-da-tions.",
         "translation": "為了讓大家了解我們要談的內容，我會先介紹背景，接著說明主要發現，最後提出我們的建議。"
       },
       {
@@ -216,23 +216,23 @@ export const config = {
         "translation": "今天的旅程將從當前市場概況開始，接著分析消費者趨勢，最後談到未來的預測。"
       },
       {
-        "text": "Here's a brief roadmap for our discussion: we'll start by defining the problem, then explore potential solutions, and finally, address the implementation challenges.",
-        "syllables": "Here's a brief road-map for our dis-cus-sion: we'll start by de-fin-ing the prob-lem, then ex-plore po-ten-tial so-lu-tions, and fi-nal-ly, ad-dress the im-ple-men-ta-tion chal-leng-es.",
+        "text": "Here's a brief roadmap for our discussion: we will start by defining the problem, then explore potential solutions, and finally, address the implementation challenges.",
+        "syllables": "Here's a brief road-map for our dis-cus-sion: we will start by de-fin-ing the prob-lem, then ex-plore po-ten-tial so-lu-tions, and fi-nal-ly, ad-dress the im-ple-men-ta-tion chal-leng-es.",
         "translation": "這是我們討論的簡要流程：先定義問題，再探討可能的解決方案，最後處理執行上的挑戰。"
       },
       {
-        "text": "In the next 15 minutes, we'll examine three main points: the historical context, the present-day impact, and potential strategies for improvement.",
-        "syllables": "In the next fif-teen min-utes, we'll ex-am-ine three main points: the his-tor-i-cal con-text, the pres-ent-day im-pact, and po-ten-tial strat-e-gies for im-prove-ment.",
+        "text": "In the next 15 minutes, we will examine three main points: the historical context, the present-day impact, and potential strategies for improvement.",
+        "syllables": "In the next fif-teen min-utes, we will ex-am-ine three main points: the his-tor-i-cal con-text, the pres-ent-day im-pact, and po-ten-tial strat-e-gies for im-prove-ment.",
         "translation": "接下來十五分鐘，我們將探討三個重點：歷史背景、當前影響，以及改善的潛在策略。"
       },
       {
-        "text": "I've structured this presentation into three parts: first, understanding the theory; second, reviewing the practical applications; and third, opening the floor for a Q&A session.",
-        "syllables": "I've struc-tured this pre-sen-ta-tion in-to three parts: first, un-der-stand-ing the the-o-ry; sec-ond, re-view-ing the prac-ti-cal ap-pli-ca-tions; and third, o-pen-ing the floor for a Q & A ses-sion.",
+        "text": "I have structured this presentation into three parts: first, understanding the theory; second, reviewing the practical applications; and third, opening the floor for a Q&A session.",
+        "syllables": "I have struc-tured this pre-sen-ta-tion in-to three parts: first, un-der-stand-ing the the-o-ry; sec-ond, re-view-ing the prac-ti-cal ap-pli-ca-tions; and third, o-pen-ing the floor for a Q & A ses-sion.",
         "translation": "我把這場簡報分成三個部分：第一，理解理論；第二，檢視實際應用；第三，開放問答時間。"
       },
       {
-        "text": "We'll proceed as follows: I'll introduce the core concept, present some supporting data, and then outline the next steps for our project.",
-        "syllables": "We'll pro-ceed as fol-lows: I'll in-tro-duce the core con-cept, pre-sent some sup-port-ing da-ta, and then out-line the next steps for our pro-ject.",
+        "text": "We will proceed as follows: we will introduce the core concept, present some supporting data, and then outline the next steps for our project.",
+        "syllables": "We will pro-ceed as fol-lows: we will ll in-tro-duce the core con-cept, pre-sent some sup-port-ing da-ta, and then out-line the next steps for our pro-ject.",
         "translation": "我們的進行方式如下：我會先介紹核心概念，接著提供一些支持數據，然後說明我們專案的下一步。"
       },
       {
@@ -246,8 +246,8 @@ export const config = {
         "translation": "我的簡報會分成四個部分：問題說明、我們提出的解決方案、預期效益，以及行動呼籲。"
       },
       {
-        "text": "To ensure clarity, we'll start with the foundational principles, then delve into specific case studies, and finally, discuss the broader implications.",
-        "syllables": "To en-sure clar-i-ty, we'll start with the foun-da-tion-al prin-ci-ples, then delve in-to spe-cif-ic case stud-ies, and fi-nal-ly, dis-cuss the broad-er im-pli-ca-tions.",
+        "text": "To ensure clarity, we will start with the foundational principles, then delve into specific case studies, and finally, discuss the broader implications.",
+        "syllables": "To en-sure clar-i-ty, we will start with the foun-da-tion-al prin-ci-ples, then delve in-to spe-cif-ic case stud-ies, and fi-nal-ly, dis-cuss the broad-er im-pli-ca-tions.",
         "translation": "為了確保說明清楚，我們會先介紹基礎原則，接著深入探討具體案例，最後討論更廣泛的影響。"
       },
       {
@@ -256,8 +256,8 @@ export const config = {
         "translation": "本場次將分為三部分：簡短介紹、對關鍵挑戰的深入探討，以及可行見解的總結。"
       },
       {
-        "text": "I've divided my presentation into three parts: first we'll deal with preparation, then we'll focus on language, and lastly we'll look at delivery.",
-        "syllables": "I've di-vid-ed my pre-sen-ta-tion in-to three parts: first we'll deal with pre-pa-ra-tion, then we'll fo-cus on lan-guage, and last-ly we'll look at de-liv-er-y.",
+        "text": "I have divided my presentation into three parts: first we will deal with preparation, then we will focus on language, and lastly we will look at delivery.",
+        "syllables": "I have di-vid-ed my pre-sen-ta-tion in-to three parts: first we will deal with pre-pa-ra-tion, then we will fo-cus on lan-guage, and last-ly we will look at de-liv-er-y.",
         "translation": "我將簡報分成三部分：首先是準備階段，接著是語言運用，最後是簡報的表達方式。"
       }
     ],
@@ -308,8 +308,8 @@ export const config = {
             "translation": "這張圖說明了在培訓方面的投資與員工留任率之間的正向關聯。"
           },
           {
-            "text": "We've seen similar patterns in other industries, suggesting that this isn't an isolated incident but rather a broader market movement.",
-            "syllables": "We've seen sim-i-lar pat-terns in oth-er in-dus-tries, sug-gest-ing that this isn't an i-so-lat-ed in-ci-dent but rath-er a broad-er mar-ket move-ment.",
+            "text": "We have seen similar patterns in other industries, suggesting that this isn't an isolated incident but rather a broader market movement.",
+            "syllables": "We have seen sim-i-lar pat-terns in oth-er in-dus-tries, sug-gest-ing that this isn't an i-so-lat-ed in-ci-dent but rath-er a broad-er mar-ket move-ment.",
             "translation": "我們在其他產業也觀察到類似的模式，這表示這不是單一事件，而是一個更廣泛的市場趨勢。"
           },
           {
@@ -318,13 +318,13 @@ export const config = {
             "translation": "接下來，讓我們看看這些挑戰是如何轉化為創新機會的。"
           },
           {
-            "text": "With that in mind, I'd like to shift gears and discuss our proposed solution in more detail.",
-            "syllables": "With that in mind, I'd like to shift gears and dis-cuss our pro-posed so-lu-tion in more de-tail.",
+            "text": "With that in mind, I had like to shift gears and discuss our proposed solution in more detail.",
+            "syllables": "With that in mind, I had like to shift gears and dis-cuss our pro-posed so-lu-tion in more de-tail.",
             "translation": "有鑑於此，我想轉換一下焦點，進一步討論我們提出的解決方案。"
           },
           {
-            "text": "Now that we've covered the problem, let's look at the strategies we've developed to address it.",
-            "syllables": "Now that we've cov-ered the prob-lem, let's look at the strat-e-gies we've de-vel-oped to ad-dress it.",
+            "text": "Now that we have covered the problem, let's look at the strategies we have developed to address it.",
+            "syllables": "Now that we have cov-ered the prob-lem, let's look at the strat-e-gies we have de-vel-oped to ad-dress it.",
             "translation": "既然我們已經探討了問題，接下來看看我們制定的應對策略。"
           },
           {
@@ -343,8 +343,8 @@ export const config = {
             "translation": "那麼，在目前這種情況下，對我們利害關係人的潛在影響又是什麼呢？"
           },
           {
-            "text": "Building on what we've just discussed, let's examine the implementation timeline for these changes.",
-            "syllables": "Build-ing on what we've just dis-cussed, let's ex-am-ine the im-ple-men-ta-tion time-line for these chang-es.",
+            "text": "Building on what we have just discussed, let's examine the implementation timeline for these changes.",
+            "syllables": "Build-ing on what we have just dis-cussed, let's ex-am-ine the im-ple-men-ta-tion time-line for these chang-es.",
             "translation": "延續我們剛剛的討論，現在讓我們看看這些變革的實施時程。"
           },
           {
@@ -358,8 +358,8 @@ export const config = {
             "translation": "現在，讓我們跳脫理論，看看這種方法實際應用的例子。"
           },
           {
-            "text": "Finally, I'd like to touch upon the key takeaways from our analysis and what they mean for our future direction.",
-            "syllables": "Fi-nal-ly, I'd like to touch up-on the key take-a-ways from our a-nal-y-sis and what they mean for our fu-ture di-rec-tion.",
+            "text": "Finally, I had like to touch upon the key takeaways from our analysis and what they mean for our future direction.",
+            "syllables": "Fi-nal-ly, I had like to touch up-on the key take-a-ways from our a-nal-y-sis and what they mean for our fu-ture di-rec-tion.",
             "translation": "最後，我想談談我們分析的重點結論，以及這些對我們未來方向的意義。"
           },
           {
@@ -418,8 +418,8 @@ export const config = {
             "translation": "最明顯的是，有65%的受訪者偏好線上購物。"
           },
           {
-            "text": "In comparison to last year, we've seen a 20% rise in our international exports.",
-            "syllables": "In com-par-i-son to last year, we've seen a twen-ty per-cent rise in our in-ter-na-tion-al ex-ports.",
+            "text": "In comparison to last year, we have seen a 20% rise in our international exports.",
+            "syllables": "In com-par-i-son to last year, we have seen a twen-ty per-cent rise in our in-ter-na-tion-al ex-ports.",
             "translation": "與去年相比，我們的國際出口成長了20%。"
           },
           {
@@ -553,8 +553,8 @@ export const config = {
             "translation": "你可以看到這款創新的包裝設計不僅減少浪費，還大幅提升產品的新鮮度，延長保存期限。"
           },
           {
-            "text": "We've prioritized scalability in this new infrastructure, meaning it can effortlessly handle a tenfold increase in user traffic without performance degradation.",
-            "syllables": "We've pri-or-i-tized scal-a-bil-i-ty in this new in-fra-struc-ture, mean-ing it can ef-fort-less-ly han-dle a ten-fold in-crease in us-er traf-fic with-out per-for-mance de-grad-a-tion.",
+            "text": "We have prioritized scalability in this new infrastructure, meaning it can effortlessly handle a tenfold increase in user traffic without performance degradation.",
+            "syllables": "We have pri-or-i-tized scal-a-bil-i-ty in this new in-fra-struc-ture, mean-ing it can ef-fort-less-ly han-dle a ten-fold in-crease in us-er traf-fic with-out per-for-mance de-grad-a-tion.",
             "translation": "我們在這個新基礎建設中優先考慮了擴充性，意味著它能輕鬆應對用戶流量十倍的增加而不影響效能。"
           },
           {
@@ -563,8 +563,8 @@ export const config = {
             "translation": "這個夥伴關係的美妙之處在於協同效應：我們結合的專業讓我們能解決彼此單獨無法處理的複雜問題。"
           },
           {
-            "text": "Imagine a future where renewable energy powers every home and industry – that's what we're going to explore today.",
-            "syllables": "Im-ag-ine a fu-ture where re-new-a-ble en-er-gy pow-ers ev-ery home and in-dus-try – that's what we're go-ing to ex-plore to-day.",
+            "text": "Imagine a future where renewable energy powers every home and industry – that's what we are going to explore today.",
+            "syllables": "Im-ag-ine a fu-ture where re-new-a-ble en-er-gy pow-ers ev-ery home and in-dus-try – that's what we are go-ing to ex-plore to-day.",
             "translation": "想像一個未來，新能源為每個家庭和產業提供動力——這就是我們今天要探討的。"
           },
           {
@@ -608,15 +608,15 @@ export const config = {
             "translation": "如果有一種更簡單、更有效的方法來與你的客戶建立聯繫並維持長久關係呢？"
           },
           {
-            "text": "Think about a time when a single decision changed everything for you – that's the kind of pivotal moment we're exploring today.",
-            "syllables": "Think a-bout a time when a sin-gle de-ci-sion changed ev-ery-thing for you – that's the kind of piv-ot-al mo-ment we're ex-plor-ing to-day.",
+            "text": "Think about a time when a single decision changed everything for you – that's the kind of pivotal moment we are exploring today.",
+            "syllables": "Think a-bout a time when a sin-gle de-ci-sion changed ev-ery-thing for you – that's the kind of piv-ot-al mo-ment we are ex-plor-ing to-day.",
             "translation": "想想看有哪一次，一個決定改變了你的一切——這就是我們今天要探討的關鍵時刻。"
           }
     ],
     sentences: [
           {
-            "text": "To recap, we've explored the significant impact of digital transformation on modern businesses.",
-            "syllables": "To re-cap, we've ex-plored the sig-nif-i-cant im-pact of dig-i-tal trans-for-ma-tion on mod-ern busi-ness-es.",
+            "text": "To recap, we have explored the significant impact of digital transformation on modern businesses.",
+            "syllables": "To re-cap, we have ex-plored the sig-nif-i-cant im-pact of dig-i-tal trans-for-ma-tion on mod-ern busi-ness-es.",
             "translation": "總結來說，我們探討了數位轉型對現代企業的重要影響。"
           },
           {
@@ -625,8 +625,8 @@ export const config = {
             "translation": "本質上，今天的討論強調了永續做法在達成長期成長中的關鍵角色。"
           },
           {
-            "text": "We've covered how strategic investment in technology can drive both efficiency and innovation.",
-            "syllables": "We've cov-ered how strat-e-gic in-vest-ment in tech-nol-o-gy can drive both ef-fi-cien-cy and in-no-va-tion.",
+            "text": "We have covered how strategic investment in technology can drive both efficiency and innovation.",
+            "syllables": "We have cov-ered how strat-e-gic in-vest-ment in tech-nol-o-gy can drive both ef-fi-cien-cy and in-no-va-tion.",
             "translation": "我們說明了策略性投資科技如何推動效率與創新。"
           },
           {
@@ -645,8 +645,8 @@ export const config = {
             "translation": "今天的主要結論是，採用這些新方法能顯著提升生產力。"
           },
           {
-            "text": "We've seen how integrating these solutions can lead to enhanced customer satisfaction and loyalty.",
-            "syllables": "We've seen how in-te-grat-ing these so-lu-tions can lead to en-hanced cus-tom-er sat-is-fac-tion and loy-al-ty.",
+            "text": "We have seen how integrating these solutions can lead to enhanced customer satisfaction and loyalty.",
+            "syllables": "We have seen how in-te-grat-ing these so-lu-tions can lead to en-hanced cus-tom-er sat-is-fac-tion and loy-al-ty.",
             "translation": "我們看到整合這些方案能提升顧客滿意度與忠誠度。"
           },
           {
@@ -735,13 +735,13 @@ export const config = {
             "translation": "這帶出一個基本點：我們如何確保進步造福所有人，而不只是少數人？"
           },
           {
-            "text": "Given what we've discussed, what untapped potential still lies within our reach, waiting to be discovered?",
-            "syllables": "Giv-en what we've dis-cussed, what un-tapped po-ten-tial still lies with-in our reach, wait-ing to be dis-cov-ered?",
+            "text": "Given what we have discussed, what untapped potential still lies within our reach, waiting to be discovered?",
+            "syllables": "Giv-en what we have dis-cussed, what un-tapped po-ten-tial still lies with-in our reach, wait-ing to be dis-cov-ered?",
             "translation": "根據我們討論過的內容，還有哪些未被開發的潛力就在我們觸手可及之處，等待被發掘？"
           },
           {
-            "text": "As we conclude, I'd like to leave you with this thought: what if the biggest obstacles are actually our greatest opportunities in disguise?",
-            "syllables": "As we con-clude, I'd like to leave you with this thought: what if the big-gest ob-sta-cles are ac-tu-al-ly our great-est op-por-tu-ni-ties in dis-guise?",
+            "text": "As we conclude, I had like to leave you with this thought: what if the biggest obstacles are actually our greatest opportunities in disguise?",
+            "syllables": "As we con-clude, I had like to leave you with this thought: what if the big-gest ob-sta-cles are ac-tu-al-ly our great-est op-por-tu-ni-ties in dis-guise?",
             "translation": "在結尾時，我想留下這個思考：如果最大的障礙其實是偽裝成機會的最大良機呢？"
           },
           {
@@ -760,8 +760,8 @@ export const config = {
             "translation": "請思考：在快速變化的世界中，我們如何在持續動盪中保持韌性與相關性？"
           },
           {
-            "text": "So, the question remains: what kind of legacy do we want to build with the knowledge and tools we've explored today?",
-            "syllables": "So, the ques-tion re-mains: what kind of leg-a-cy do we want to build with the know-ledge and tools we've ex-plored to-day?",
+            "text": "So, the question remains: what kind of legacy do we want to build with the knowledge and tools we have explored today?",
+            "syllables": "So, the ques-tion re-mains: what kind of leg-a-cy do we want to build with the know-ledge and tools we have ex-plored to-day?",
             "translation": "因此，問題仍是：我們想用今天探討的知識與工具，打造什麼樣的傳承？"
           },
           {
@@ -805,8 +805,8 @@ export const config = {
             "translation": "所以，當你離開這個房間時，問問自己：我們需要什麼樣的範式轉變，才能真正解鎖下一階段的進步？"
           },
           {
-            "text": "Ultimately, the future we've discussed isn't just an abstract concept; it's a future that each of us has the power to influence.",
-            "syllables": "Ul-ti-mate-ly, the fu-ture we've dis-cussed is-n't just an ab-stract con-cept; it's a fu-ture that each of us has the pow-er to in-flu-ence.",
+            "text": "Ultimately, the future we have discussed isn't just an abstract concept; it's a future that each of us has the power to influence.",
+            "syllables": "Ul-ti-mate-ly, the fu-ture we have dis-cussed is-n't just an ab-stract con-cept; it's a fu-ture that each of us has the pow-er to in-flu-ence.",
             "translation": "最終，我們討論的未來不僅僅是抽象概念；它是每個人都有能力影響的未來。"
           },
           {
@@ -825,13 +825,13 @@ export const config = {
             "translation": "我們有大約十分鐘的提問時間。請隨時提出您想到的任何問題。"
           },
           {
-            "text": "I'd be happy to elaborate on any points. What questions do you have for me?",
-            "syllables": "I'd be hap-py to e-lab-o-rate on a-ny points. What ques-tions do you have for me?",
+            "text": "I had be happy to elaborate on any points. What questions do you have for me?",
+            "syllables": "I had be hap-py to e-lab-o-rate on a-ny points. What ques-tions do you have for me?",
             "translation": "我很樂意詳細說明任何觀點。你們有什麼問題想問我嗎？"
           },
           {
-            "text": "Now, I'd like to open the floor for questions. Yes, in the front row?",
-            "syllables": "Now, I'd like to open the floor for ques-tions. Yes, in the front row?",
+            "text": "Now, I had like to open the floor for questions. Yes, in the front row?",
+            "syllables": "Now, I had like to open the floor for ques-tions. Yes, in the front row?",
             "translation": "現在，我想開放提問時間。是的，前排的朋友？"
           },
           {
@@ -845,18 +845,18 @@ export const config = {
             "translation": "請問您能否澄清一下您所說的「長期投資」是指什麼？"
           },
           {
-            "text": "If I understand correctly, you're asking about the impact on our overseas operations, is that right?",
-            "syllables": "If I un-der-stand cor-rect-ly, you're ask-ing a-bout the im-pact on our o-ver-seas op-er-a-tions, is that right?",
+            "text": "If I understand correctly, you are asking about the impact on our overseas operations, is that right?",
+            "syllables": "If I un-der-stand cor-rect-ly, you are ask-ing a-bout the im-pact on our o-ver-seas op-er-a-tions, is that right?",
             "translation": "如果我理解正確，您是在問這對我們海外業務的影響，是嗎？"
           },
           {
-            "text": "Just to make sure I've got your question right, are you referring to the data from the first quarter or the entire year?",
-            "syllables": "Just to make sure I've got your ques-tion right, are you re-fer-ring to the da-ta from the first quar-ter or the en-tire year?",
+            "text": "Just to make sure I have got your question right, are you referring to the data from the first quarter or the entire year?",
+            "syllables": "Just to make sure I have got your ques-tion right, are you re-fer-ring to the da-ta from the first quar-ter or the en-tire year?",
             "translation": "為了確認我理解您的問題，您指的是第一季度的數據還是整年度的數據？"
           },
           {
-            "text": "That's an important point. Can you give me a bit more context on what you're hoping to understand?",
-            "syllables": "That's an im-port-ant point. Can you give me a bit more con-text on what you're hop-ing to un-der-stand?",
+            "text": "That's an important point. Can you give me a bit more context on what you are hoping to understand?",
+            "syllables": "That's an im-port-ant point. Can you give me a bit more con-text on what you are hop-ing to un-der-stand?",
             "translation": "這是一個重要的點。您能否多提供一些背景，說明您希望了解什麼？"
           },
           {
@@ -890,23 +890,23 @@ export const config = {
             "translation": "這是一個合理的擔憂。我們計劃通過分階段推行來減輕風險。"
           },
           {
-            "text": "That's a complex question, but an important one. We're currently exploring several options to address that challenge.",
-            "syllables": "That's a com-plex ques-tion, but an im-port-ant one. We're cur-rent-ly ex-plor-ing sev-er-al op-tions to ad-dress that chal-lenge.",
+            "text": "That's a complex question, but an important one. We are currently exploring several options to address that challenge.",
+            "syllables": "That's a com-plex ques-tion, but an im-port-ant one. We are cur-rent-ly ex-plor-ing sev-er-al op-tions to ad-dress that chal-lenge.",
             "translation": "這是一個複雜但重要的問題。我們目前正在探索多種方案來應對這一挑戰。"
           },
           {
-            "text": "I appreciate you bringing that up. While we don't have a definitive answer yet, it's certainly an area we're actively investigating.",
-            "syllables": "I ap-pre-ci-ate you bring-ing that up. While we don't have a def-in-i-tive an-swer yet, it's cer-tain-ly an ar-ea we're ac-tive-ly in-ves-ti-gat-ing.",
+            "text": "I appreciate you bringing that up. While we don't have a definitive answer yet, it's certainly an area we are actively investigating.",
+            "syllables": "I ap-pre-ci-ate you bring-ing that up. While we don't have a def-in-i-tive an-swer yet, it's cer-tain-ly an ar-ea we are ac-tive-ly in-ves-ti-gat-ing.",
             "translation": "感謝您提出這個問題。雖然我們還沒有確定的答案，但這肯定是我們正在積極調查的領域。"
           },
           {
-            "text": "That's a question that goes beyond the scope of this particular presentation, but I'd be happy to discuss it with you individually afterward.",
-            "syllables": "That's a ques-tion that goes be-yond the scope of this par-tic-u-lar pre-sen-ta-tion, but I'd be hap-py to dis-cuss it with you in-di-vid-u-al-ly af-ter-ward.",
+            "text": "That's a question that goes beyond the scope of this particular presentation, but I had be happy to discuss it with you individually afterward.",
+            "syllables": "That's a ques-tion that goes be-yond the scope of this par-tic-u-lar pre-sen-ta-tion, but I had be hap-py to dis-cuss it with you in-di-vid-u-al-ly af-ter-ward.",
             "translation": "這個問題超出了本次報告的範圍，但我很樂意會後與您單獨討論。"
           },
           {
-            "text": "While I don't have the exact figures in front of me, I can tell you that we've seen positive trends in that area. I can follow up with the specific data later.",
-            "syllables": "While I don't have the ex-act fig-ures in front of me, I can tell you that we've seen pos-i-tive trends in that ar-ea. I can fol-low up with the spe-cif-ic da-ta lat-er.",
+            "text": "While I don't have the exact figures in front of me, I can tell you that we have seen positive trends in that area. I can follow up with the specific data later.",
+            "syllables": "While I don't have the ex-act fig-ures in front of me, I can tell you that we have seen pos-i-tive trends in that ar-ea. I can fol-low up with the spe-cif-ic da-ta lat-er.",
             "translation": "雖然我手邊沒有具體數字，但我可以告訴您，我們在該領域看到積極的趨勢。我稍後可以提供具體數據。"
           },
           {
